@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "checkJs": false,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "declaration": true,
+    "declarationMap": true,
+    "downlevelIteration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "lib": ["DOM", "ESNext"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "build",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "target": "ES5",
+    "strictNullChecks": true,
+    "paths": {
+    }
+  },
+  "exclude": ["**/node_modules/**"],
+  "typeAcquisition": {
+    "enable": true
+  }
+}
